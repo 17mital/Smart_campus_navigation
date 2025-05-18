@@ -47,11 +47,13 @@ We’ve successfully written a **review paper** on this project under the guidan
 
 ## 👩‍💻 Contributors
 
-| Name | Role |
-|------|------|
-| **Mital Patil** | Frontend Developer & Project Coordinator |
-| **Aarjav Jain** | Map Integration & Flask Backend |
-| **Sanket Patil** | ML Logic & Dijkstra Implementation |
+
+ **Mital Patil** 
+ --
+ **Aarjav Jain** 
+ --
+ **Sanket Patil** 
+ --
 
 ---
 
