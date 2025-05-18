@@ -1,0 +1,109 @@
+.library-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #7b4397, #dc2430);
+  padding: 20px;
+  flex-direction: column;
+}
+
+.library-card {
+  background: #fff;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 850px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.library-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.library-title {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.library-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.library-map-360 {
+  width: 80%;
+  height: 90vh;
+  position: relative;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.library-hours {
+  background: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.library-hours h3 {
+  font-size: 1.8rem;
+  color: #8e44ad;
+  margin-bottom: 0.5rem;
+}
+
+.library-hours p {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #666;
+}
+
+.button-group {
+  margin-top: 2rem;
+}
+
+.view-360-btn, 
+.back-home-btn {
+  margin: 10px;
+  background: #ffff;
+  color: #8e44ad;
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.view-360-btn:hover, 
+.back-home-btn:hover {
+  background: #5e3370;
+}
+
+.back-library-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #ffffff;
+  color: #8e44ad;
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-library-btn:hover {
+  background: #5e3370;
+}

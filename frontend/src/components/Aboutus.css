@@ -1,0 +1,56 @@
+.about-us {
+  font-family: 'Arial', sans-serif;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4d8d8;
+}
+
+.about-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+              url('../assets/campus.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-intro h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.about-intro p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.campus-map {
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.campus-map h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 400px;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+:hover.aboutinfo{
+  color: #eac6c62f;
+}

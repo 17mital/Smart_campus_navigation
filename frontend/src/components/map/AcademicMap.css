@@ -1,0 +1,14 @@
+/* In CampusMap.css */
+.map-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .map-image {
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

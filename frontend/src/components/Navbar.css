@@ -1,0 +1,42 @@
+.navbar {
+    transition: all 0.4s ease;
+    padding: 1rem 1.5rem;
+    color: white;
+    background: linear-gradient(135deg, #b92020, #530909);
+  }
+  
+  .navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.9); */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    color: rgb(255, 255, 255) !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffffff !important;
+    transform: translateY(-3px);  /* Slight lift effect */
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1);  /* Makes the toggler icon white */
+  }
+  
